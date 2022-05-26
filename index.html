@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<style>
+			body {position:absolute; margin: 0; background: rgb(255, 255, 255);}
+		</style>
+	</head>
+	<body>
+		<script src="dat.gui.js"></script> <!-- Import the dat.gui package -->
+		<script src="three.js"></script> <!-- Import the threejs package -->
+		<script src="index.js"></script> <!-- 3D scene content management -->
+
+		<!-- uStyle={
+			width: canvas_width (integer)(default: 500),
+			height: canvas_height (integer)(default: 500), 
+ 			side: show_which_side_of_surface ('front'/'back'/'both')(default: 'both')
+			background: background_color ([r,g,b of color])(default: [0.95,1.0,0.9])
+			projection: projection_type ('ortho'/'persp')(default: 'persp')
+			wireframe: show_main_object_wireframe (true/false)(default: true)
+		}-->
+
+		<p>あ　デフォルト</p>
+		<script> uStyle={wireframe:false} </script>
+		<script src="custom4.js"></script>
+		
+		<p>あ　スケール0.7</p>
+		<script> uStyle={wireframe:false, scale:0.7} </script>
+		<script src="custom4.js"></script>
+
+		<p>あ</p>
+		<script> uStyle={wireframe:false} </script>
+		<script src="custom4.js"></script>
+
+		<p>あ</p>
+		<script> uStyle={wireframe:false} </script>
+		<script src="custom4.js"></script>
+
+		<p>あ</p>
+		<script> uStyle={wireframe:false} </script>
+		<script src="custom4.js"></script>
+
+		<p>あ</p>
+		<script> uStyle={wireframe:false} </script>
+		<script src="custom4.js"></script>
+		<!--
+		<p>い</p>
+		<script> uStyle={wireframe:true, width:400, height:300, background:[1.0,0.95,0.9], projection:'ortho', scale:1}</script>
+		<script src="custom2.js"></script>
+
+		<p>う</p>
+		<script> uStyle={side:'back', height:500, initialangularvelocity:[-1,1,1]} </script>
+		<script src="custom2.js"></script>
+
+		<p>え</p>
+		<script src="custom5.js"></script>
+		
+		-->>
+	</body>
+</html>
